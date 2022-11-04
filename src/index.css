@@ -1,0 +1,175 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f1f3f5;
+  overflow: hidden;
+}
+
+.container {
+  width: 90%;
+  height: auto;
+  margin: 5% auto;
+  background-color: #f8f9fa;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #ffff;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.title {
+  color: #0290ff;
+}
+
+.left {
+  width: 50%;
+  display: inherit;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  list-style-type: none;
+  gap: 20px;
+}
+
+.links {
+  text-decoration: none;
+  color: #868e96;
+}
+
+.links:hover {
+  border: 2px solid #0290ff;
+  padding: 2px 5px;
+}
+
+.btn--user {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid #0290ff;
+}
+
+.user {
+  color: #0290ff;
+}
+
+/* style cards */
+.book {
+  width: 100%;
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.book-info {
+  width: 90%;
+  margin: 10px auto;
+  background-color: #ffff;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: minmax(120px, auto);
+}
+
+.part1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 10px 20px;
+}
+
+.part3 {
+  margin: 10px 0;
+}
+
+#chapter {
+  margin-bottom: 3px;
+}
+
+#page {
+  margin: 3px 0;
+}
+
+.update {
+  height: 23px;
+  width: 90%;
+  margin: 20px 0;
+  background-color: #0290ff;
+  border: none;
+  border-radius: 2px;
+}
+
+.btn-progress {
+  color: #ffff;
+}
+
+#genre {
+  margin-bottom: 0;
+}
+
+#title {
+  margin: 3px 0;
+}
+
+#author {
+  margin-top: 3px;
+}
+
+.add-book {
+  width: 90%;
+  margin: 10px auto;
+}
+
+#book-title {
+  width: 50%;
+  height: 20px;
+  margin: 3px 0;
+}
+
+#book-category {
+  height: 20px;
+  margin: 3px auto;
+  width: 20%;
+}
+
+.form-book {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.add-book h1 {
+  margin-bottom: 3px;
+  font-size: 20px;
+}
+
+.btn-add {
+  width: 25%;
+  height: 25px;
+  background-color: #0290ff;
+  border: none;
+  border-radius: 2px;
+}
+
+.addbook {
+  color: #ffff;
+}
+
+.Notification {
+  text-align: center;
+}
