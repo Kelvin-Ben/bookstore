@@ -1,10 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Bookstore React App
-
-> In this project I will lay foundations for Bookstore website. 
-> I will create the React part of the app. 
-> I will also set up routing using React Router.
+# Bookstore React App: add reducers and actions
+In this step, I will configure your Redux Store and write actions and reducer for adding and removing books. 
+>Editing an existing book and updating the progress is not part of the requirement. Neither is the styling of the application's components but adding and removing actions need to be implemented.
 
 ## Built With
 
