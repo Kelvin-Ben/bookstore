@@ -1,11 +1,11 @@
-/* eslint-disable no-unused-vars */
-import { Redux } from 'react';
+import { configureStore } from '@reduxjs/toolkit';
 import books from './books/books';
 import categories from './categories/categories';
 
-const { configureStore, CombineReducers } = Redux;
-const ourReducers = CombineReducers({
-  count: books,
-  check: categories,
+const rootReducer = configureStore({
+  reducer: {
+    count: books,
+    check: categories,
+  },
 });
-const store = configureStore(CombineReducers);
+export default rootReducer;
