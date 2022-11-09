@@ -3,14 +3,16 @@ const CHECK = 'bookstore/categories/CHECK';
 const initialStateCategories = [];
 
 // DEFINE CHECK CATEGORY ACTION
-export const categoryCheck = (payload) => ({
+export const categoryCheck = (category) => ({
   type: CHECK,
-  payload,
+  category,
 });
 
 export default function Categories(state = initialStateCategories, action) {
-  if (action.type === initialStateCategories) {
-    return 'UNDER DEVELOPMENT';
+  switch (action.type) {
+    case CHECK:
+      return window.alert('UNDER DEVELOPMENT');
+    default:
+      return state;
   }
-  return state;
 }
