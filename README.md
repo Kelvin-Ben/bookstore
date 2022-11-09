@@ -2,12 +2,12 @@
 
 # Bookstore React App: add reducers and actions
 In this step, I will configure your Redux Store and write actions and reducer for adding and removing books. 
->Editing an existing book and updating the progress is not part of the requirement. Neither is the styling of the application's components but adding and removing actions need to be implemented.
+>In this step I will use Redux store to display books. I will also add some UI elements to my components and make them dispatch actions.
 
 ## Built With
 
 - Major languages: HTML/CSS and Javascript
-- Frameworks:- REACTJS
+- Frameworks:- REACT-REDUX
 
 ## Live Demo (if available)
 
