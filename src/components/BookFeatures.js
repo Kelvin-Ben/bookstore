@@ -1,20 +1,28 @@
 /* eslint-disable react/prop-types */
-import React from 'react';
+import { useDispatch } from 'react-redux';
+import { removeBook } from '../redux/books/books';
 
 export default function BookFeatures(props) {
   const {
     book,
   } = props;
+  const dispatch = useDispatch();
   return (
     <div className="book">
       <div className="book-info">
         <div className="part1">
           <span id="genre">{book.genre}</span>
           <h2 id="title">{book.title}</h2>
-          <p id="author">{book.Author}</p>
+          <p id="author">{book.author}</p>
           <div className="actions">
             <button type="button" className="btn type">Comments</button>
-            <button type="button" className="btn type">Remove</button>
+            <button
+              type="button"
+              className="btn type"
+              onClick={() => dispatch(removeBook(book.id))}
+            >
+              Remove
+            </button>
             <button type="button" className="btn type">Edit</button>
           </div>
         </div>
