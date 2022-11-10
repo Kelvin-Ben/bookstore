@@ -2,7 +2,8 @@
 
 # Bookstore React App: add reducers and actions
 In this step, I will configure your Redux Store and write actions and reducer for adding and removing books. 
->In this step I will use Redux store to display books. I will also add some UI elements to my components and make them dispatch actions.
+> In the previous project I developed the add book and remove book features directly in my application using Redux and React state.
+> Now I refactored my code to use the Bookstore API to add and remove books.
 
 ## Built With
 
