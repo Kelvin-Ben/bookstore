@@ -19,7 +19,7 @@ export default function BookFeatures(props) {
             <button
               type="button"
               className="btn type"
-              onClick={() => dispatch(removeBook(book.id))}
+              onClick={() => dispatch(removeBook(book))}
             >
               Remove
             </button>
@@ -29,7 +29,7 @@ export default function BookFeatures(props) {
         <div className="part2">
           <div className="percent">
             <h3>{book.percentage}</h3>
-            <span>{book.completed}</span>
+            <span>Completed</span>
           </div>
         </div>
         <div className="part3">
