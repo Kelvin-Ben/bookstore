@@ -5,14 +5,14 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import BooksContainer from './components/BooksContainer';
 import Categories from './pages/Categories';
 import App from './App';
-import store from './redux/configureStore';
+import rootReducer from './redux/configureStore';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
     <React.StrictMode>
-      <Provider store={store}>
+      <Provider store={rootReducer}>
         <App />
         <Routes>
           <Route path="/" element={<BooksContainer />} />
