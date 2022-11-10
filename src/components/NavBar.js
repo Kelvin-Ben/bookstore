@@ -1,6 +1,5 @@
-/* eslint-disable react/prop-types */
-/* eslint-disable react/jsx-props-no-spreading */
-import { Link, useMatch, useResolvedPath } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
+import React from 'react';
 
 export default function NavBar() {
   return (
@@ -8,8 +7,8 @@ export default function NavBar() {
       <div className="left">
         <h1 className="title">Bookstore CMS</h1>
         <ul className="list">
-          <CustomLink to="/" className="links">BOOKS</CustomLink>
-          <CustomLink to="/Categories" className="links">CATEGORIES</CustomLink>
+          <NavLink to="/" className="links">BOOKS</NavLink>
+          <NavLink to="/categories" className="links">CATEGORIES</NavLink>
         </ul>
       </div>
       <button type="submit" className="btn--user">
@@ -18,17 +17,5 @@ export default function NavBar() {
         </svg>
       </button>
     </nav>
-  );
-}
-function CustomLink({ to, children, ...props }) {
-  const resolvedPath = useResolvedPath(to);
-  const isActive = useMatch({ path: resolvedPath.pathname, end: true });
-
-  return (
-    <li className={isActive ? 'active' : ''}>
-      <Link to={to} {...props}>
-        { children }
-      </Link>
-    </li>
   );
 }

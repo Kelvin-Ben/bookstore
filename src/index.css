@@ -3,7 +3,6 @@ body {
   padding: 0;
   box-sizing: border-box;
   background-color: #f1f3f5;
-  overflow: hidden;
 }
 
 .container {
@@ -171,5 +170,13 @@ body {
 }
 
 .Notification {
-  text-align: center;
+  width: auto;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+
+#check-status {
+  font-size: 24px;
 }
