@@ -27,10 +27,12 @@ export default function BookFeatures(props) {
           </div>
         </div>
         <div className="part2">
+          <div id="completion" />
           <div className="percent">
-            <h3>{book.percentage}</h3>
+            <h3>64%</h3>
             <span>Completed</span>
           </div>
+          <span className="border-right" />
         </div>
         <div className="part3">
           <div className="progress">
