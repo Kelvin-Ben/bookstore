@@ -1,14 +1,14 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Bookstore React App: add reducers and actions
-In this step, I will configure your Redux Store and write actions and reducer for adding and removing books. 
-> In the previous project I developed the add book and remove book features directly in my application using Redux and React state.
-> Now I refactored my code to use the Bookstore API to add and remove books.
+# A Bookstore application built with REACT, REDUX AND JAVASCRIPT
+> Bookstore application built with REACT, JAVASCRIPT, and CSS. It lets you add and remove books.
 
 ## Built With
 
-- Major languages: HTML/CSS and Javascript
-- Frameworks:- REACT-REDUX
+- HTML
+- CSS
+- javaScript
+- React
 
 ## Live Demo (if available)
 
@@ -17,14 +17,14 @@ Not yet available but you can check other projects[here](https://github.com/Kelv
 
 ## Getting Started
 
-To get a local copy up and running follow these simple example steps. (NPM)
+To get a local copy running follow this steps!
 
-1. Open your terminal
-2. Navigate to the directory where you want your project cloned
-3. Clone the project using git clone or just copy the command below:
-$ git@github.com:Kelvin-Ben/bookstore.git
-4. Open the project with your IDE like
-5. Run npm install to get the dependencies
+- Press the "Code" button and copy the link.
+- Clone it using git command git clone <$ git@github.com:Kelvin-Ben/bookstore.git>.
+- Go to the directory cd <bookstore>
+- npm install to install the packages
+- npm run start to build dist files and run local server.
+
 
 ## Prerequisites
 
@@ -35,7 +35,7 @@ $ git@github.com:Kelvin-Ben/bookstore.git
 
 This App was deployed using the github apps deployment. But you can also run "npm run start" in your terminal after the setup process.
 
-## Authors
+## Author
 
 👤 **Kelvin Benjamin**
 
@@ -56,10 +56,6 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
+- Hat tip to Zeplin(https://app.zeplin.io/login) for the desing
 - Inspiration
 - etc
-
-## 📝 License
-
-This project is [MIT](./LICENSE) licensed.
