@@ -10,9 +10,9 @@
 - javaScript
 - React
 
-## Live Demo (if available)
 
-Not yet available but you can check other projects[here](https://github.com/Kelvin-Ben)
+![bookstore](https://user-images.githubusercontent.com/85459676/201335826-2049cd00-2a99-49ab-924f-2db2793ee913.png)
+
 
 
 ## Getting Started
@@ -20,7 +20,7 @@ Not yet available but you can check other projects[here](https://github.com/Kelv
 To get a local copy running follow this steps!
 
 - Press the "Code" button and copy the link.
-- Clone it using git command git clone <$ git@github.com:Kelvin-Ben/bookstore.git>.
+- Clone it using git command git clone $ git@github.com:Kelvin-Ben/bookstore.git.
 - Go to the directory cd <bookstore>
 - npm install to install the packages
 - npm run start to build dist files and run local server.
@@ -56,6 +56,6 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to Zeplin(https://app.zeplin.io/login) for the desing
+- Hat tip to [Zeplin](https://app.zeplin.io/login) for the design
 - Inspiration
 - etc
