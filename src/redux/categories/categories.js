@@ -13,6 +13,7 @@ export default function Categories(state = initialStateCategories, action) {
     case CHECK:
       return (
         <div>Under Development</div>
+        ),
     default:
       return state;
   }
