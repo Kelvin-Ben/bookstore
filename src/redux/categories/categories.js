@@ -11,7 +11,8 @@ export const categoryCheck = (category) => ({
 export default function Categories(state = initialStateCategories, action) {
   switch (action.type) {
     case CHECK:
-      return window.alert('UNDER DEVELOPMENT');
+      return (
+        <div>Under Development</div>
     default:
       return state;
   }
