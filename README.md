@@ -1,4 +1,5 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+![IMG_20210430_165321 (3)](https://github.com/Kelvin-Ben/bookstore/assets/85459676/0021db1c-5adc-47ff-9aa9-e5cd434bb375)
+
 
 # Bookstore App
 The Bookstore app is a React, Redux, and JavaScript-based responsive web application. It enables users to save books they are reading and keep track of their reading progress. Users can add books by entering the title, author, and additional information such as the book cover image and genre. The app calculates the percentage of the book read, allowing users to keep track of their progress. Users can also search for books by title, author, or genre, as well as sort books by title, author, or percentage read. The user interface is simple and straightforward, and the app is designed to work on both desktop and mobile devices.
