@@ -255,6 +255,9 @@ body {
   border: none;
   border-radius: 2px;
 }
+.btn-add:hover{
+  cursor: pointer;
+}
 
 .addbook {
   color: #ffff;
