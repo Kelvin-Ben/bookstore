@@ -7,7 +7,6 @@ import Categories from './pages/Categories';
 import App from './App';
 import rootReducer from './redux/configureStore';
 
-
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
