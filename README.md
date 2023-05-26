@@ -21,10 +21,10 @@ The Bookstore app is a React, Redux, and JavaScript-based responsive web applica
 To get a local copy running follow this steps!
 
 - Press the "Code" button and copy the link.
-- Clone it using git command git clone ```$ git@github.com:Kelvin-Ben/bookstore.git```.
-- Go to the directory cd <bookstore>
-- npm install to install the packages
-- npm run start to build dist files and run local server.
+- Clone it using git command ```git clone git@github.com:Kelvin-Ben/bookstore.git```.
+- Go to the directory ```cd bookstore```
+- Then ```npm install``` to install the packages
+- ```npm start``` to build dist files and run local server.
 
 
 ### Prerequisites
